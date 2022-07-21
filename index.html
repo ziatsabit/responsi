@@ -1,0 +1,70 @@
+<html>
+<head>
+	<link rel="stylesheet" href="home.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+    <script>
+        alert('Selamat Datang di Web Pom Mini');
+      </script>
+	<div id="content">
+		<div id="header">
+		</div>
+		<div id="menu">
+			<div class="navbar">
+			</div>
+		</div>
+		<div id="main-content">
+			<div id="news">
+				<h2>Catatan Transaksi</h2>
+                <form name="form1" method="post" action="proses.php">
+				<div id="text"><p margin-left="15px"><table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input name="nama" type="text" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal(y/m/d)</td>
+                        <td>:</td>
+                        <td><input name="tanggal" type="text" id="tanggal"></td>
+                    </tr>
+                    <tr>
+                        <td>Telp</td>
+                        <td>:</td>
+                        <td><input name="telp" type="text" id="telp"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis BBM</td>
+                        <td>:</td>
+                        <td><select name="bbm" id="bbm">
+                                <option value="Pertalite" selected>Pertalite</option>
+                                <option value="Solar" selected>Solar</option>
+                                <option value="Bio Solar" selected>Bio Solar</option>
+                                <option value="Pertamax" selected>Pertamax</option>
+                                <option value="Pertamax Turbo" selected>Pertamax Turbo</option>
+                                <option value="Dexlite" selected>Dexlite</option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td>Jumlah</td>
+                        <td>:</td>
+                        <td><input name="jumlah" type="text" id="jumlah"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>:</td>
+                        <td><input type="submit" name="Submit" value="Kirim">
+                            <input type="reset" name="Submit2" value="Batal"> 
+                        </td>
+                    </tr>
+                </table></p></div>
+			</div>
+		</div>
+    </form>
+		<div id="footer" style="color:white">
+			<p><center>Copyright <a style="color:orange">YourSite.</a> All rights reserved.</center></p>
+		</div>
+	<div>
+</body>
+</html>
